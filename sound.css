@@ -1,0 +1,88 @@
+*{
+    padding:0;
+    margin: 0;
+}
+header{
+    background-image: url(box_field.png);
+
+}
+
+header h1{
+    color:goldenrod;
+}
+body{
+    background-image: url(backg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+nav{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+nav h2{
+    color:goldenrod;
+}
+.Box{
+    border:2px solid white;
+    width:200px;
+    height:auto;
+    margin-top: 2%;
+    margin-left: 1%;
+    display:inline-block;
+}
+.purchase{
+    color:goldenrod;
+    font-size: x-large;
+    height: auto;
+    padding-left: 5%;
+}
+footer{
+    background-image: url(box_field.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.style{
+    color:goldenrod;
+    font-size: x-large;
+    margin-left:1.5%;
+    margin-top: 1%;
+}
+.contact{
+    color:white;
+    font-size: larger;
+    margin-left:1.5%;
+    margin-top: 1%;
+}
+
+.buttons a{
+    padding:1% 1% 1% 1%;
+    text-decoration: none;
+    display:inline-block;
+    text-align: right;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: goldenrod;
+    margin:1%;
+    height:auto;
+    width:auto;
+}
+.icon{
+    background-color: black;
+}
+.Box button{
+    background-color: white;
+    width:30px;
+    height:auto;
+    margin-left:13%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    
+}
+
+
+
+

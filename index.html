@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="jaytech.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *{
+    padding:0;
+    margin:0;
+}
+main i{
+    margin-left: 60%;
+}
+header{
+    background-image: url(box_field.png);
+
+}
+
+header h1{
+    color:goldenrod;
+}
+body{
+    background-image: url(que.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+nav{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+nav h2{
+    color:goldenrod;
+}
+
+.Box{
+    margin-top:5%;
+    margin-left:5%;
+    width:auto;
+    height:auto;
+    max-width: 700px;
+    min-width: fit-content;
+}
+.box-field{
+    color:rgb(182, 133, 7);
+    text-align: center;
+    padding:3% 0% 2% 0%;
+    background-image: url(box_field.png);
+
+}
+.input{
+    margin:2% 0% 1% 2%;
+    background-color: transparent;
+    border-radius: 5px;
+    padding:3% 3% 3% 3%;
+    width:auto;
+    
+}
+form input{
+    outline: none;
+}
+::placeholder{
+    color: black;
+}
+.button{
+    background-color: black;
+    color:goldenrod;
+    margin:2% 0% 1% 2%;
+    border-radius: 5px;
+    padding:2% 2% 1% 2%;
+    width:auto;
+}
+.register{
+    background-color:goldenrod;
+    color: black;
+    margin:2% 0% 1% 2%;
+    border-radius: 5px;
+    padding:2% 2% 1% 2%;
+    font-size: large;
+    animation-name: grow;
+    animation-duration: 2s;
+}
+@keyframes grow {
+    50%{transform:scale(0.5,0.5)}
+}
+.deco1{
+    max-width: 200px;
+    max-height: 200px;
+    margin-top:2%;
+    margin-left:50%;
+    border:2px solid white;
+}
+.deco2{
+    max-width: 200px;
+    max-height: 200px;
+    margin-top:-5%;
+    margin-left:30%;
+    margin-bottom: 3%;
+    border:2px solid white;
+}
+footer{
+    background-image: url(box_field.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.style{
+    color:goldenrod;
+    font-size: x-large;
+    margin-left:1.5%;
+    margin-top: 1%;
+}
+.contact{
+    color:white;
+    font-size: larger;
+    margin-left:1.5%;
+    margin-top: 1%;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div><h1>Jay-Tech</h1></div>
+        <nav>
+           <h2>Online Tech Store</h2>
+       </nav>
+            
+    </header> 
+    <main>
+        <form class="Box" action="index.php"method="post">
+            <div class="box-field"><h2>Login Details</h2></div>
+            <div>
+                <input type="text" class="input" name="username" placeholder="Enter your username"><br>
+                <input type="password" class="input" name="password" placeholder="Enter your password"><br>
+            </div>
+            <div>
+                <a href="jayhome.html"><input type="button" class="button" name="login" value="Login"> </a><br>
+                <input type="submit" class="button" name="reset" value="Forgot Password?"><br>
+            </div>
+            <div class="box-field"><a href="register.html">
+                <input class="register" type="button" name="register" value="Create an account">
+            </a></div>
+        </form>
+        <i class="fa-solid fa-face-awesome" style="color: #ffe014;"></i>
+        <div class="deco1"><img src="deco.png" width="200px" height="200px" alt=""></div>
+        <div class="deco2"><img src="deco2.png" width="200px" height="200px" alt=""></div>
+    </main>
+    <footer>
+        <div class="style">
+             <h3>Jay-Tech&reg;</h3>
+             <h4>Online tech store company</h4>
+             <h5>Contact or visit our social media pages</h5>
+        </div>/
+        <label class="contact">WhatsaApp: <a href="https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwhatsapp.com%2Fdl%2F&data=05%7C01%7Cs224673386%40mandela.ac.za%7Ccec83c66bb1e4cebf66d08dbc44bb0c0%7Cbd70eeb3a537435a937c7cd330dc74d8%7C0%7C0%7C638319602370491540%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000%7C%7C%7C&sdata=Cfg4NRjBs%2BXAQRWJNqyCyYbfC3huSueXSpz2yv1IGm4%3D&reserved=0"><i class="fa-brands fa-square-whatsapp" style="color: #47db33;"></i></a> </label><br>
+        <label class="contact">FaceBook: <a href="https://www.facebook.com/siwaphiwe.mancam.1"><i class="fa-brands fa-square-facebook" style="color: #105ada;"></i></a></label><br>
+        <label class="contact">Twitter: <i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></label><br>
+        <label class="contact">TikTok: <i class="fa-brands fa-tiktok" style="color:goldenrod;"></i></label><br>
+        <label class="contact">Instagram: <i class="fa-brands fa-square-instagram" style="color: #9235d0;"></i></label><br>
+        <label class="contact">Email: <a href="mailto:siwaphiwemancam15@gmail.com"><i class="fa-solid fa-envelope" style="color: #cb850b;"></i></a></label>
+
+    </footer>
+</body>
+</html>
